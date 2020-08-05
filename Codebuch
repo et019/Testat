@@ -7,6 +7,7 @@ Codebuch Kohlekommission
 (Genaue ID wie in Nodelist)
 
 **relation**
+(definiert die Art der Beziehung) 
 1= Mitglied,
 2= Vorstand,
 4= Partei,
@@ -26,6 +27,7 @@ Codebuch Kohlekommission
 3= divers
 
 **type**
+(da two-mode Netzwerk)
 1= Person
 2= Organisation
 
@@ -37,15 +39,17 @@ Codebuch Kohlekommission
 5 = über 64
 
 **party**
+(Parteizugehörigkeit)
 1= CDU/CSU
 2= SPD 
 3= Grüne
 4= Linke
 5= FDP
-6=AfD
-0=parteilos
+6= AfD
+0= parteilos
  
 **representaion:
+(in der KK)
 1= Politik
 2= Wirtschaft
 3= Gewerkschaft
@@ -54,11 +58,13 @@ Codebuch Kohlekommission
 6= Wissenschaft      
 
 **position** 
+(in der KK)
 1= Vorsitz
 2= Mitglied
 3= kein Stimmrecht
 
 **state**
+(Herkunft nach Pass)
 1=Brandenburg
 2=Nordrhein-Westfalen 
 3=Berlin
