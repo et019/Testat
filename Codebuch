@@ -1,11 +1,10 @@
 Codebuch Kohlekommission
+
 # EDGE-Attribute
-
-**id**  
-(eindeutige Codierung des Knoten)  
-
-**name**
-(voller Name) 
+**from**
+(Genaue ID wie in Nodelist)
+**to**
+(Genaue ID wie in Nodelist)
 
 **relation**
 1= Mitglied,
@@ -15,6 +14,12 @@ Codebuch Kohlekommission
 6=Professur, Forschungsleitung
 
 # NODE-Attribute 
+**id**  
+(eindeutige Codierung des Knoten)  
+
+**name**
+(voller Name) 
+
 **sex** 
 1= männlich 
 2= weiblich
