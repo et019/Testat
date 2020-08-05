@@ -1,26 +1,37 @@
 Codebuch Kohlekommission
+# EDGE-Attribute
 
-id: ID wie Edgelist
+**id**  
+(eindeutige Codierung des Knoten)  
 
-name: voller Name 
+**name**
+(voller Name) 
 
-sex: 
+**relation**
+1= Mitglied,
+2= Vorstand,
+4= Partei,
+5= Verband,
+6=Professur, Forschungsleitung
+
+# NODE-Attribute 
+**sex** 
 1= männlich 
 2= weiblich
 3= divers
 
-type: 
+**type**
 1= Person
 2= Organisation
 
-age: 
+**age**
 1 = unter 18,
 2 = 18 bis 25,
 3 = 26 bis 34,
 4 = 35 bis 64,
 5 = über 64
 
-party:
+**party**
 1= CDU/CSU
 2= SPD 
 3= Grüne
@@ -29,7 +40,7 @@ party:
 6=AfD
 0=parteilos
  
-representaion:
+**representaion:
 1= Politik
 2= Wirtschaft
 3= Gewerkschaft
@@ -37,12 +48,12 @@ representaion:
 5= Regionen
 6= Wissenschaft      
 
-position: 
+**position** 
 1= Vorsitz
 2= Mitglied
 3= kein Stimmrecht
 
-state: 
+**state**
 1=Brandenburg
 2=Nordrhein-Westfalen 
 3=Berlin
@@ -54,3 +65,4 @@ state:
 9=Niedersachsen
 
 99: definiert fehlende Werte
+##
